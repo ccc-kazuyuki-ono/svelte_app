@@ -1,5 +1,4 @@
 FROM node:18.16.0-bullseye AS build
-ENV  DOCKER_BUILDKIT=1
 
 WORKDIR /app
 
