@@ -19,6 +19,8 @@ steps:
     args: ['build', '-t', 
     'us-central1-docker.pkg.dev/${PROJECT_ID}/docker-repo-01760/svelte_app:v1', 
     '.']
+    env:
+    - "DOCKER_BUILDKIT=1"
 
   # Docker Push
   - name: 'gcr.io/cloud-builders/docker'
