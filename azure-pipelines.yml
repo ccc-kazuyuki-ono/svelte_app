@@ -15,7 +15,7 @@ variables:
   imageRepository: 'ccckazuyukionosvelteapp'
   containerRegistry: 'dockerrepo01760.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: 'v1'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
