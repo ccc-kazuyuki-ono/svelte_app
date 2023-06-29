@@ -17,6 +17,4 @@ WORKDIR /app
 COPY --from=build /app/package*.json ./
 COPY --from=build /app/build ./build
 
-EXPOSE 8000
-
 CMD ["node", "build"]
