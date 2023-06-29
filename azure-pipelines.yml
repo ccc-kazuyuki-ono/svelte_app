@@ -9,6 +9,7 @@ resources:
 - repo: self
 
 variables:
+  DOCKER_BUILDKIT: 1
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '721f7f7b-aaae-45c4-8a72-8ab09f00154c'
   imageRepository: 'ccckazuyukionosvelteapp'
