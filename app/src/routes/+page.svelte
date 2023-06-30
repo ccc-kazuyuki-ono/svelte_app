@@ -17,7 +17,6 @@
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
 		</span>
-    おのです(2023/06/30)<br />
 		to your new<br />SvelteKit app
 	</h1>
 
