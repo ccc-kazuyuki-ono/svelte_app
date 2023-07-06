@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: dockerrepo01760.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_26b44e88fe72416a8f89ff1680bff5e3 }}/ccckazuyukionosvelteapp:${{ github.sha }}
+        tags: dockerrepo01760.azurecr.io/ccckazuyukionosvelteapp:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
