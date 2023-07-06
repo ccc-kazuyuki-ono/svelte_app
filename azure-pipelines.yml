@@ -38,7 +38,3 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-    - task: AzureContainerApps@1
-      displayName: 'Azure Web App on Container Deploy'
-      inputs:
-        azureSubscription: 'cccmk-mkc-01(1ee03cef-693d-46db-af85-6986ad877f33)'
